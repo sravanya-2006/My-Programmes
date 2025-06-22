@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    position: relative;
+    margin: 100px;
+
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: none;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.a {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: red;
+    z-index: 5;
+}
+
+.b {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    background-color: blue;
+    z-index: 4;
+}
+
+.c {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    background-color:yellow;
+    z-index: 3;
+}
+
+.d {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    background-color: green;
+    z-index: 2;
+}

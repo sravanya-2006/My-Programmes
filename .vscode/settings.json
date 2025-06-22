@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "liveServer.settings.port": 5501,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
